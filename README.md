@@ -4,7 +4,7 @@
 
 HuatuoGPT-R is a retrieval-augmented version of [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT), designed to provide more effective and safer diagnostic outcomes for patients by referencing a vast collection of real-world physician consultation data. This mitigates the risks posed by potential harmful diagnoses or suggestions arising from language model hallucinations. In this repository, we provide:
 
-1. **HuatuoGPT-R Retrieval Instruction Dataset**: these instructions are built upon [Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M), the largest-scale chinese medical QA dataset. These instructions enable you to fine-tune your model to use the Huatuo-26M database to deliver more reliable and accurate responses.
+1. **HuatuoGPT-R Retrieval Instruction Dataset**: These instructions are built upon [Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M), the largest-scale chinese medical QA dataset. These instructions enable you to fine-tune your model to use the Huatuo-26M database to deliver more reliable and accurate responses.
 
 2. **HuatuoGPT-R Model**: We release our model and retriever weights to make HuatuoGPT-R accessible to everyone.
 
