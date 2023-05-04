@@ -1,2 +1,2 @@
 # HuatuoGPT-R
-RAG to reduce medical haluccination.
+RAG to reduce medical hallucination.
