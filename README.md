@@ -10,7 +10,7 @@ HuatuoGPT-R is a retrieval-augmented version of [HuatuoGPT](https://github.com/F
 
 3. **Evaluation Metrics for Effectiveness and Safety**: A key challenge in employing language models for real-world medical applications lies in guaranteeing safe and effective suggestions or diagnoses, akin to a medical professional. Medical language models can pose safety concerns if they generate diagnoses or prescriptions based on hallucinations or insufficient domain knowledge. Overly focusing on safety could limit the model's ability to offer valuable input in a diagnostic setting. In this repository, we offer more reasonable and comprehensive evaluation methods to better assess the performance of language models in medical consultation scenarios.
 
-   
+# Motivation
 
 # 📚Data
 ### Database
@@ -19,7 +19,7 @@ HuatuoGPT-R is a retrieval-augmented version of [HuatuoGPT](https://github.com/F
 ### Instruction data
 -  Retrieval Instruction Dataset
 
-
+# Demo
 
 # 👨‍⚕️Models
 
