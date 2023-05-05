@@ -28,9 +28,9 @@ HuatuoGPT-𝓡 is a retrieval-augmented version of [HuatuoGPT](https://github.c
 
 Demo responses from HuatuoGPT-𝓡,  HuatuoGPT-𝓡 can diagnose patients, prescribe medication  based on their symptoms, and support multi-rounds of conversation.  
 
-![Untitled](HuatuoGPT-%F0%9D%93%A1%20Exploring%20the%20reliability%20of%20medical%20L%20c14ad27cc1c74991b37df32c1d5ac375/Untitled.png)
+![Untitled](images/demo_1.png)
 
-![Untitled](HuatuoGPT-%F0%9D%93%A1%20Exploring%20the%20reliability%20of%20medical%20L%20c14ad27cc1c74991b37df32c1d5ac375/Untitled%201.png)
+![Untitled](images/demo_2.png)
 
 # **👨‍⚕️Models**
 
