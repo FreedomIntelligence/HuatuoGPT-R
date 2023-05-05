@@ -32,6 +32,8 @@ Demo responses from HuatuoGPT-𝓡,  HuatuoGPT-𝓡 can diagnose patients, presc
 
 ![Untitled](images/demo_2.png)
 
+![Untitled](images/demo_3.png)
+
 # **👨‍⚕️Models**
 
 - HuatuoGPT-R(ChatGLM-backend)
