@@ -1,26 +1,41 @@
-# HuatuoGPT-R: Retrieval-Augmented HuatuoGPT
+# HuatuoGPT-𝓡: Exploring the reliability of medical LLMs
 
-# 🔍Introduction
+# 🆁**Introduction**
 
-HuatuoGPT-R is a retrieval-augmented version of [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT), designed to provide more effective and safer diagnostic outcomes for patients by referencing a vast collection of real-world physician consultation data. This mitigates the risks posed by potential harmful diagnoses or suggestions arising from language model hallucinations. In this repository, we provide:
+HuatuoGPT-𝓡 is a retrieval-augmented version of [HuatuoGPT](https://github.com/FreedomIntelligence/HuatuoGPT), designed to provide more effective and safer diagnostic outcomes for patients by referencing a vast collection of real-world physician consultation data. This mitigates the risks posed by potential harmful diagnoses or suggestions arising from language model hallucinations. ‘𝓡’ means reliable, resourceful and reference. In this repository, we provide:
 
-1. **HuatuoGPT-R Retrieval Instruction Dataset**: These instructions are built upon [Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M), the largest-scale chinese medical QA dataset. These instructions enable you to fine-tune your model to use the Huatuo-26M database to deliver more reliable and accurate responses.
+1. **HuatuoGPT-**𝓡 **Retrieval Instruction Dataset**: These instructions are built upon [Huatuo-26M](https://github.com/FreedomIntelligence/Huatuo-26M), the largest-scale chinese medical QA dataset. These instructions enable you to fine-tune your model to use the Huatuo-26M database to deliver more reliable and accurate responses.
+2. **HuatuoGPT-**𝓡 **Model**: We release our model and retriever weights to make HuatuoGPT-𝓡 accessible to everyone.
+3. **Evaluation Metrics for Effectiveness and Safety**: An evaluation benchmark to evaluate effectiveness and safety of responses from LLMs in medical domain.
 
-2. **HuatuoGPT-R Model**: We release our model and retriever weights to make HuatuoGPT-R accessible to everyone.
+# 💭Motivation
 
-3. **Evaluation Metrics for Effectiveness and Safety**: A key challenge in employing language models for real-world medical applications lies in guaranteeing safe and effective suggestions or diagnoses, akin to a medical professional. Medical language models can pose safety concerns if they generate diagnoses or prescriptions based on hallucinations or insufficient domain knowledge. Overly focusing on safety could limit the model's ability to offer valuable input in a diagnostic setting. In this repository, we offer more reasonable and comprehensive evaluation methods to better assess the performance of language models in medical consultation scenarios.
+- To address the hallucination of large language models and provide a more reliable HuatuoGPT with reference.
+- Restrict HuatuoGPT with in a more controllable, traceable, and reliable range.
+- A key challenge in employing language models for real-world medical applications lies in guaranteeing safe and effective suggestions or diagnoses, akin to a medical professional. Medical language models can pose safety concerns if they generate diagnoses or prescriptions based on hallucinations or insufficient domain knowledge. Overly focusing on safety could limit the model's ability to offer valuable input in a diagnostic setting. In this repository, we offer more reasonable and comprehensive evaluation methods to better assess the performance of language models in medical consultation scenarios.
 
-# Motivation
+# **📚Data**
 
-# 📚Data
 ### Database
--  Huatuo-26M
+
+- Huatuo-26M:
 
 ### Instruction data
--  Retrieval Instruction Dataset
 
-# Demo
+- Retrieval Instruction Dataset:
 
-# 👨‍⚕️Models
+# 🎬 Demo
 
--  HuatuoGPT-R
+Demo responses from HuatuoGPT-𝓡,  HuatuoGPT-𝓡 can diagnose patients, prescribe medication  based on their symptoms, and support multi-rounds of conversation.  
+
+![Untitled](HuatuoGPT-%F0%9D%93%A1%20Exploring%20the%20reliability%20of%20medical%20L%20c14ad27cc1c74991b37df32c1d5ac375/Untitled.png)
+
+![Untitled](HuatuoGPT-%F0%9D%93%A1%20Exploring%20the%20reliability%20of%20medical%20L%20c14ad27cc1c74991b37df32c1d5ac375/Untitled%201.png)
+
+# **👨‍⚕️Models**
+
+- HuatuoGPT-R(ChatGLM-backend)
+- HuatuoGPT-R(Huatuo-backend)
+- Medical Retrieval Model
+
+# Evaluation(Coming soon)
